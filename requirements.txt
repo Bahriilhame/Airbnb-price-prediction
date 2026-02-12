@@ -1,0 +1,17 @@
+# Librairies pour le scraping
+selenium
+webdriver-manager
+pandas
+numpy
+re
+time
+csv
+os
+
+# Librairies pour l'analyse et visualisation
+matplotlib
+seaborn
+folium
+
+# Librairies pour Machine Learning
+scikit-learn
