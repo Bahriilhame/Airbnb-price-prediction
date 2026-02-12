@@ -5,17 +5,16 @@ Ce projet a pour objectif de prédire les loyers des logements Airbnb au Maroc e
 
 ## Structure du projet
 - `Codes/` : Dossier contenant les codes
-    - `Codes/EDA+Nettoyage+Prétraitement.ipynb` : notebook pour EDA, nettoyage et prétraitement
-    - `Codes/Scraping.ipynb` : script de récupération des données depuis Airbnb
-
+    - `EDA+Nettoyage+Prétraitement.ipynb` : notebook pour l’EDA, le nettoyage et le prétraitement
+    - `Scraping.ipynb` : notebook pour la récupération des données depuis Airbnb
 - `Datasets/` : Dossier contenant les données
-    - `Datasets/data_scraped.csv` : Les données brutes
-    - `Datasets/data_nettoyee.csv` : Les données nettoyées
-
+    - `data_scraped.csv` : données brutes collectées
+    - `data_nettoyee.csv` : données nettoyées et prêtes pour le modèle
 - `requirements.txt` : liste des bibliothèques nécessaires
 
 ## Instructions pour exécuter le projet
-1. Cloner le projet
+
+1. **Cloner le projet**
 ```bash
 git clone https://github.com/Bahriilhame/Airbnb-price-prediction.git
 cd Airbnb-price-prediction
